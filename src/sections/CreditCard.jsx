@@ -29,12 +29,10 @@ export default function CreditCard() {
                 Up to 3% back on purchases
               </li>
               <li>
-                {" "}
                 <BsCheckCircleFill className="inline text-primary mr-2" />
                 Earn rewards in bitcoin or any crypto on NEFA
               </li>
               <li>
-                {" "}
                 <BsCheckCircleFill className="inline text-primary mr-2" />
                 No annual fee
               </li>
