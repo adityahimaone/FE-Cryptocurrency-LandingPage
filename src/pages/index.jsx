@@ -7,6 +7,7 @@ import BuyAndTradeSection from "../sections/BuyAndTrade";
 import PartnerSection from "../sections/Partner";
 import CreditCardSection from "../sections/CreditCard";
 import TradingToolsSection from "../sections/TradingTools";
+import SecuritySection from "../sections/Security";
 
 export default function index() {
   return (
@@ -17,6 +18,7 @@ export default function index() {
       <PartnerSection />
       <CreditCardSection />
       <TradingToolsSection />
+      <SecuritySection />
       <Footer />
     </Layout>
   );
