@@ -4,8 +4,10 @@ import Navbar from "../Navbar";
 export default function Layout({ children }) {
   return (
     <div className="">
-      <Navbar />
-      {children}
+      <header>
+        <Navbar />
+      </header>
+      <main className="overflow-hidden">{children}</main>
     </div>
   );
 }

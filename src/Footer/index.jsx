@@ -20,76 +20,76 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Exchanges
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Watchlist
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Portfolio
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
-                </a>
-              </li>
-            </ul>
-            <ul className="xl:border-r border-lightgray flex flex-col items-start xl:items-center space-y-4 py-4">
-              <li>
-                <a href="#" className="text-gray">
-                  Buy Crypto
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray">
-                  Buy Crypto
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray">
-                  Buy Crypto
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray">
-                  Buy Crypto
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray">
-                  Buy Crypto
+                  NFT
                 </a>
               </li>
             </ul>
             <ul className="xl:border-r border-lightgray flex flex-col items-start xl:items-center space-y-4 py-4">
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Products
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Abous Us
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Careers
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Blog
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray">
-                  Buy Crypto
+                  Security
+                </a>
+              </li>
+            </ul>
+            <ul className="xl:border-r border-lightgray flex flex-col items-start xl:items-center space-y-4 py-4">
+              <li>
+                <a href="#" className="text-gray">
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray">
+                  System Status
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray">
+                  Area of Avaibility
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray">
+                  Privacy Policy
                 </a>
               </li>
             </ul>

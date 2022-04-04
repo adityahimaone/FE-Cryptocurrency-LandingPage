@@ -16,58 +16,64 @@ export default function GetStarted() {
             </h1>
           </div>
           <div className="flex flex-col md:flex-row justify-center gap:20">
-            <div className="text-center relative px-4">
-              <div className="relative">
-                <img
-                  src={signupImage}
-                  alt="signupImage"
-                  className="mb-4 mx-auto"
-                />
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="hidden md:block absolute top-1/2 -right-32"
-                />
+            <Fade up>
+              <div className="text-center relative px-4">
+                <div className="relative">
+                  <img
+                    src={signupImage}
+                    alt="signupImage"
+                    className="mb-4 mx-auto"
+                  />
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="hidden md:block absolute top-1/2 -right-32"
+                  />
+                </div>
+                <h3 className="text-lg font-bold">Sign Up</h3>
+                <p className="text-gray">
+                  Buy Bitcoin or Ethereum, then securely store it in your Wallet
+                  or send it on easily to friends
+                </p>
               </div>
-              <h3 className="text-lg font-bold">Sign Up</h3>
-              <p className="text-gray">
-                Buy Bitcoin or Ethereum, then securely store it in your Wallet
-                or send it on easily to friends
-              </p>
-            </div>
-            <div className="text-center relative px-4">
-              <div className="relative">
-                <img
-                  src={walletImage}
-                  alt="signupImage"
-                  className="mb-4 mx-auto"
-                />
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="hidden md:block absolute top-1/2 -right-32"
-                />
+            </Fade>
+            <Fade up delay={200}>
+              <div className="text-center relative px-4">
+                <div className="relative">
+                  <img
+                    src={walletImage}
+                    alt="signupImage"
+                    className="mb-4 mx-auto"
+                  />
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="hidden md:block absolute top-1/2 -right-32"
+                  />
+                </div>
+                <h3 className="text-lg font-bold">Fund</h3>
+                <p className="text-gray">
+                  Choose your preferred payment method such as bank transfer or
+                  credit card to top up your NEFA Wallet
+                </p>
               </div>
-              <h3 className="text-lg font-bold">Fund</h3>
-              <p className="text-gray">
-                Choose your preferred payment method such as bank transfer or
-                credit card to top up your NEFA Wallet
-              </p>
-            </div>
-            <div className="text-center relative px-4">
-              <div className="relative">
-                <img
-                  src={okayImage}
-                  alt="signupImage"
-                  className="mb-4 mx-auto"
-                />
+            </Fade>
+            <Fade up delay={400}>
+              <div className="text-center relative px-4">
+                <div className="relative">
+                  <img
+                    src={okayImage}
+                    alt="signupImage"
+                    className="mb-4 mx-auto"
+                  />
+                </div>
+                <h3 className="text-lg font-bold">Buy Crypto</h3>
+                <p className="text-gray">
+                  Sign up for your free NEFA Wallet on web, iOS or Android and
+                  follow our easy process to set up your profile
+                </p>
               </div>
-              <h3 className="text-lg font-bold">Buy Crypto</h3>
-              <p className="text-gray">
-                Sign up for your free NEFA Wallet on web, iOS or Android and
-                follow our easy process to set up your profile
-              </p>
-            </div>
+            </Fade>
           </div>
         </div>
       </div>

@@ -6,14 +6,14 @@ import { BsChevronDown } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <section className="relative bg-primary bg-opacity-5 pb-24 overflow-hidden">
+    <section className="relative bg-primary pt-[140px] bg-opacity-5 pb-28 overflow-hidden">
       {/* <span className="absolute bg-purple-400 -left-28 -top-28 rounded-full opacity-[20%] blur-3xl aspect-square h-[350px] -z-10 animate-pulse" /> */}
-      {/* <span className="absolute bg-gradient-to-br from-primary to-secondary -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl  delay-700 duration-1000 aspect-square h-[550px] -z-10" /> */}
+      {/* <span className="absolute bg-gradient-to-br from-primary to-secondarys -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl  delay-700 duration-1000 aspect-square h-[550px] -z-10" /> */}
       <div className="container mx-auto grid grid-cols-2">
         <div className="flex items-center">
           <div>
             <p className="text-primary">SIGN UP TODAY</p>
-            <h1 className="text-5xl font-bold max-w-md leading-normal my-4">
+            <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold max-w-xl leading-normal my-4">
               <span className="break-words">The World's </span>
               <span className="break-words">Fastest Growing </span>
               <span>Cycrpto Web App</span>
