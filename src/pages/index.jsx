@@ -4,7 +4,8 @@ import Footer from "../Footer";
 import CryptocurrencySection from "../sections/Cryptocurrency";
 import HeroSection from "../sections/Hero";
 import BuyAndTradeSection from "../sections/BuyAndTrade";
-import Partner from "../sections/Partner";
+import PartnerSection from "../sections/Partner";
+import CreditCardSection from "../sections/CreditCard";
 
 export default function index() {
   return (
@@ -12,7 +13,8 @@ export default function index() {
       <HeroSection />
       <CryptocurrencySection />
       <BuyAndTradeSection />
-      <Partner />
+      <PartnerSection />
+      <CreditCardSection />
       <Footer />
     </Layout>
   );
