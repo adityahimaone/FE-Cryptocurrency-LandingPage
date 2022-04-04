@@ -9,6 +9,7 @@ import CreditCardSection from "../sections/CreditCard";
 import TradingToolsSection from "../sections/TradingTools";
 import SecuritySection from "../sections/Security";
 import GetStarted from "../sections/GetStarted";
+import Faq from "../sections/Faq";
 
 export default function index() {
   return (
@@ -21,6 +22,7 @@ export default function index() {
       <TradingToolsSection />
       <SecuritySection />
       <GetStarted />
+      <Faq />
       <Footer />
     </Layout>
   );
