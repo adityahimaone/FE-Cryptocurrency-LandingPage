@@ -1,6 +1,5 @@
 import React from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
-
 import banks from "../images/illustrations/banks.png";
 import { Fade } from "react-reveal";
 
@@ -9,7 +8,9 @@ export default function Security() {
     <section className="container mx-auto py-32">
       <div className="grid md:grid-cols-2">
         <div>
-          <img src={banks} alt="banks" />
+          <Fade up>
+            <img src={banks} alt="banks" />
+          </Fade>
         </div>
         <div className="flex justify-center items-center">
           <div className="max-w-md">
@@ -31,7 +32,6 @@ export default function Security() {
               </div>
               <div className="space-y-1">
                 <h3 className="font-bold">
-                  {" "}
                   <BsCheckCircleFill className="inline text-primary mr-2" />
                   Hardware security keys
                 </h3>
@@ -44,7 +44,6 @@ export default function Security() {
               </div>
               <div className="space-y-1">
                 <h3 className="font-bold">
-                  {" "}
                   <BsCheckCircleFill className="inline text-primary mr-2" />
                   SOC Certifications
                 </h3>
